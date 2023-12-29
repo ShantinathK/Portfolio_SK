@@ -21,7 +21,7 @@ function Home() {
         <Navbar />
       </div>
       
-      <div className="w-full h-screen flex justify-center items-center">
+      <div className="w-full flex justify-center items-center overflow-y-hidden h-[87vh] md:h-screen">
       {/* <div className="rounded-full">
         <img
           className="z-[-1] w-[400px] h-[400px]rounded-full"

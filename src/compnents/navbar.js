@@ -21,7 +21,9 @@ const Navbar = () => {
     { name: "Home", path: "/", icon: <AiOutlineHome size={30} /> },
     { name: "Skills", path: "/SkillsPage", icon: <GiSkills size={30} /> },
     { name: "Project", path: "/ProjectPage", icon: <AiOutlineProject size={30} />},
-    { name: "Education", path: "/EducationPage", icon: <BsPerson size={30} /> },
+    // { name: "Education", path: "/EducationPage", icon: <BsPerson size={30} /> },
+    // { name: "Experience", path: "/ExperiencePage", icon: <BsPerson size={30} /> },
+    { name: "Resume", path: "/Resume", icon: <BsPerson size={30} /> },
     { name: "Contact", path: "/contact", icon: <AiOutlineMail size={30} /> },
   ],[]);
 

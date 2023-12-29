@@ -24,9 +24,9 @@ function Skills({ title, items }) {
                 key={index}
                 className="flex flex-col items-center justify-center m-3 gap-1 ease-in-out duration-100"
               >
-                <div className="p-3 relative group/item border-hidden shadow-inner shadow-t-none rounded bg-gradient-to-t from-blue-900">
+                <div className="p-3 relative group/item border-hidden shadow-t-none shadow-inner drop-shadow-2xl shadow-t-none rounded-lg bg-gradient-to-t from-blue-900">
                   <img
-                    className="w-[65px] rounded-lg h-[65px] translate-y-2 group-hover/item:translate-y-0 transition-all ease-in-out duration-300"
+                    className="w-[65px] rounded-lg h-[60px] translate-y-2 group-hover/item:translate-y-0 transition-all ease-in-out duration-300"
                     src={item.source}
                     alt={item.name}
                   />

@@ -1,10 +1,9 @@
-import React from 'react'
-import Navbar from '../compnents/navbar';
+import React from "react";
+import Navbar from "../compnents/navbar";
 
-import Education from '../compnents/education'
+import Education from "../compnents/education";
 
 const EductionPage = () => {
-
   const data = [
     {
       year: "2018 - 2021",
@@ -22,10 +21,11 @@ const EductionPage = () => {
       year: "2015 - 2016",
       title: "SSLC",
       college: "Holy Cross Convent School",
-    }
+      details: "State-Board",
+    },
   ];
   return (
-    <div>
+    <div className="md:mt-10">
       <style>
         {`
           #education::-webkit-scrollbar {
@@ -33,7 +33,7 @@ const EductionPage = () => {
           }
         `}
       </style>
-      <div className="z-20 bg-inherit md:fixed md:w-[100%] md:flex md:justify-around md:items-center">
+      {/* <div className="z-20 bg-inherit md:fixed md:w-[100%] md:flex md:justify-around md:items-center">
         <div className="flex justify-center item-center">
           <h1 className="font-bold text-2xl lg:text-3xl first-letter:text-red-900">
             Shantinath K.
@@ -42,16 +42,25 @@ const EductionPage = () => {
         <div>
           <Navbar />
         </div>
-      </div>
-      <div className="max-w-[1440px] overflow-y-auto h-[87vh] md:h-screen  p-4 flex flex-col justify-center items-center">
-        <div className=" overflow-y-auto h-[100%] md:h-[80%] " id="education">
-          <h1 className="md:text-4xl text-2xl text-slate-900 hover:text-slate-800 drop-shadow-2xl font-bold text-center underline">
-            Education
-          </h1>
-          <div className="flex flex-col flex-wrap items-center justify-center mt-10 gap-8 m-5">
+      </div> */}
+      <div className="max-w-[1440px] overflow-y-auto md:overflow-none h-[53vh] md:h-[100%] p-4 flex flex-col justify-center items-center">
+        <h1 className="md:text-4xl m-3 text-2xl text-slate-900 hover:text-slate-800 drop-shadow-2xl font-bold text-center underline">
+          Education
+        </h1>
+        <div
+          className=" overflow-y-auto md:overflow-none h-[100%] md:h-[80%] "
+          id="education"
+        >
+          <div className="flex flex-col flex-wrap items-start justify-center mt-3 gap-8 m-7">
             {data.map((item, idx) => (
               // <education key={idx} title={item.title} year={item.year} college={item.college} details={item.details} />
-              <Education key={idx} title={item.title} year={item.year} college={item.college} details={item.details}/>
+              <Education
+                key={idx}
+                title={item.title}
+                year={item.year}
+                college={item.college}
+                details={item.details}
+              />
             ))}
           </div>
         </div>
@@ -60,7 +69,7 @@ const EductionPage = () => {
         <h6>.</h6>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default EductionPage
+export default EductionPage;

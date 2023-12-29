@@ -2,7 +2,7 @@ import React from "react";
 
 import Footer from "./Footer";
 
-const Education = ({ title, college, year, details }) => {
+const Experience = ({ title, company, duration, year, details }) => {
   return (
     <div>
       <div className="flex flex-col justify-start hover:scale-[1.04] lg:hover:scale-[1.1] hover:shadow-gray-300 duration-100 ease-in">
@@ -11,12 +11,15 @@ const Education = ({ title, college, year, details }) => {
             <div className="absolute w-3 h-3 md:bg-stone-200 rounded-full mt-1.5 -left-1.5 border-white" />
             <p className="flex flex-wrap gap-4 flex-row items-center justify-start text-xs md:text-sm">
               <span className=" inline-block px-2 py-1 font-semibold text-white bg-[#00b15e] rounded-md">
-                {year}
+                {year} - {duration}
               </span>
-              <span className={`md:text-lg text-base font-semibold`}>{title}</span>
+              {/* <span className=" inline-block px-2 py-1 font-semibold text-white bg-[#00b15e] rounded-md">
+                {duration}
+              </span> */}
+              <span className={`text-lg font-semibold`}>{title}</span>
             </p>
             <span className={` my-2 text-3xl font-bold leading-none `}>
-              {college}
+              {company}
             </span>
             <p className="my-0 text-base font-normal text-stone-950">
               {details}
@@ -31,4 +34,4 @@ const Education = ({ title, college, year, details }) => {
   );
 };
 
-export default Education;
+export default Experience;
