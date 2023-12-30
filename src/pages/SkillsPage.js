@@ -65,7 +65,7 @@ const SkillsPage = () => {
           <h1 className="md:text-4xl text-2xl text-slate-900 hover:text-slate-800 drop-shadow-2xl font-bold text-center underline">
             Skills
           </h1>
-          <div className="flex flex-row flex-wrap items-center justify-center mt-10 gap-8 m-5 px-10">
+          <div className="flex flex-row flex-wrap items-center justify-center mt-10 gap-12 m-5 px-10">
             {data.map((item, idx) => (
               <Skills key={idx} title={item.title} items={item.items} />
             ))}

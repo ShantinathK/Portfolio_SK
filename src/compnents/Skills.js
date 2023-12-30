@@ -13,7 +13,7 @@ function Skills({ title, items }) {
         </div>
         <Navbar />
       </div> */}
-      <div className="border-1 min-h-[170px] min-w-[300px] p-2 items-center justify-evenly flex flex-col rounded-3xl border border-slate-400 bg-white/10 backdrop-blur-2xl ring-transparent">
+      <div className="border-1 min-h-[170px] min-w-[300px] p-2 items-center justify-evenly flex flex-col rounded-3xl shadow-lg shadow-gray-800 border border-slate-400 bg-white/10 backdrop-blur-2xl ring-transparent">
         <h1 className="text-[#D8D9DA] sm:text-xl font-semibold">
           {title.toUpperCase()}
         </h1>
@@ -26,7 +26,7 @@ function Skills({ title, items }) {
               >
                 <div className="p-3 relative group/item border-hidden shadow-t-none shadow-inner drop-shadow-2xl shadow-t-none rounded-lg bg-gradient-to-t from-blue-900">
                   <img
-                    className="w-[65px] rounded-lg h-[60px] translate-y-2 group-hover/item:translate-y-0 transition-all ease-in-out duration-300"
+                    className="w-[70px] rounded-lg h-[60px] translate-y-2 group-hover/item:translate-y-0 transition-all ease-in-out duration-300"
                     src={item.source}
                     alt={item.name}
                   />
