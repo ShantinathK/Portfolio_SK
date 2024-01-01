@@ -51,7 +51,7 @@ const ExperiencePage = () => {
         </div>
       </div>
       <div className="flex justify-center items-center">
-        <h6>.</h6>
+        {/* <h6></h6> */}
       </div>
     </div>
   );
