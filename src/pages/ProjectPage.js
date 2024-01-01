@@ -24,8 +24,8 @@ const ProjectPage = () => {
       tech: ["ReactJS", "TailwindCSS", "React Router"],
       image: Portfolio,
       hosted: {
-        yes: false,
-        link: "",
+        yes: true,
+        link: "https://portfolio-shantinath.netlify.app/",
       },
     },
     {
