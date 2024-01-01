@@ -1,5 +1,4 @@
 import React from "react";
-import Navbar from "../compnents/navbar";
 
 import Education from "../compnents/education";
 

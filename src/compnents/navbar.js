@@ -1,13 +1,12 @@
 import React, { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import {
-  AiOutlineMenu,
   AiOutlineHome,
   AiOutlineMail,
   AiOutlineProject,
 } from "react-icons/ai";
 // import { GrProjects } from "react-icons/gr";
-import { BsMailbox, BsPerson } from "react-icons/bs";
+import { BsPerson } from "react-icons/bs";
 import { GiSkills } from "react-icons/gi";
 
 

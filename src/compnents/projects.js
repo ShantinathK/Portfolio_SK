@@ -3,7 +3,7 @@ import React from "react";
 import { FaGithub } from "react-icons/fa";
 import { MdOutlineWeb } from "react-icons/md";
 
-import Footer from "./Footer";
+// import Footer from "./Footer";
 
 const Projects = ({ name, link, hosted, image, tech }) => {
   return (
@@ -31,14 +31,14 @@ const Projects = ({ name, link, hosted, image, tech }) => {
           <div className="flex flex-row items-center justify-center gap-2 text-[10px] sm:text-[14px]">
             {hosted.yes && (
               <a href={hosted.link} target="_blank" rel="noopener noreferrer" className="">
-                <div className="p-1 sm:p-2 flex justify-center items-center rounded-3xl sm:rounded-lg bg-white text-gray-700 font-bold cursor-pointer hover:scale-110 ease-in duration-200 gap-1 sm:gap-2">
+                <div className="p-1 sm:p-2 flex justify-center items-center rounded-3xl sm:rounded-3xl bg-white text-gray-700 font-bold cursor-pointer hover:scale-110 ease-in duration-200 gap-1 sm:gap-2">
                   <MdOutlineWeb className="w-[30px] h-[30px]" />
-                  <p className="whitespace-nowrap">Hosted here</p>
+                  <p className="whitespace-nowrap">Click here to visit site</p>
                 </div>
               </a>
             )}
-            <a href={link} className="">
-              <div className="p-1 sm:p-2 flex justify-center items-center rounded-3xl sm:rounded-lg bg-white text-gray-700 font-bold cursor-pointer hover:scale-110 ease-in duration-200 gap-1 sm:gap-2">
+            <a href={link} target="_blank" rel="noopener noreferrer" className="">
+              <div className="p-1 sm:p-2 flex justify-center items-center rounded-3xl sm:rounded-3xl bg-white text-gray-700 font-bold cursor-pointer hover:scale-110 ease-in duration-200 gap-1 sm:gap-2">
                 <FaGithub className="w-[30px] h-[30px]" />
                 <p className="whitespace-nowrap">Source Code</p>
               </div>

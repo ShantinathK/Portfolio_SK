@@ -7,10 +7,13 @@ import css from "../Assets/css.png";
 import js from "../Assets/js.png";
 import tailwind from "../Assets/tailwind.png";
 import react from "../Assets/react.png";
+// import redux from "../Assets/reduxlogo.webp"
+import R from "../Assets/redux-logo-3.jpg"
 import sql from "../Assets/sql.png";
 import Python from "../Assets/python.png";
 import git from "../Assets/git.png";
 import github from "../Assets/github.png";
+
 
 const SkillsPage = () => {
   const data = [
@@ -22,6 +25,7 @@ const SkillsPage = () => {
         { name: "JavaScript", source: js, level: 3 },
         { name: "React", source: react, level: 2 },
         { name: "Tailwind", source: tailwind, level: 4 },
+        { name: "Redux", source: R, level: 3 }
       ],
     },
     {

@@ -6,7 +6,7 @@ import "react-phone-input-2/lib/bootstrap.css";
 import "react-phone-input-2/lib/style.css";
 
 import Navbar from "./navbar";
-import Footer from "./Footer";
+// import Footer from "./Footer";
 
 // function classNames(...classes) {
 //   return classes.filter(Boolean).join(" ");
@@ -15,6 +15,13 @@ import Footer from "./Footer";
 const Contact = () => {
   // const [agreed, setAgreed] = useState(false);
   const [phone, setPhone] = useState("");
+  
+  
+
+
+
+
+
   return (
     <div className="">
       <style>
@@ -55,7 +62,7 @@ const Contact = () => {
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
               Contact Me
             </h2>
-            <p className="mt-2 text-lg leading-8 text-gray-900">
+            <p className="mt-2 text-xl leading-9 text-gray-900">
               Lets connect to discuss more on your queries.
             </p>
           </div>
@@ -68,7 +75,7 @@ const Contact = () => {
               <div>
                 <label
                   htmlFor="first-name"
-                  className="block text-sm font-semibold leading-6 text-gray-900"
+                  className="block text-md font-semibold leading-6 text-gray-950"
                 >
                   First name
                 </label>
@@ -86,7 +93,7 @@ const Contact = () => {
               <div>
                 <label
                   htmlFor="last-name"
-                  className="block text-sm font-semibold leading-6 text-gray-900"
+                  className="block text-md font-semibold leading-6 text-gray-950"
                 >
                   Last name
                 </label>
@@ -104,7 +111,7 @@ const Contact = () => {
               <div className="sm:col-span-2">
                 <label
                   htmlFor="company"
-                  className="block text-sm font-semibold leading-6 text-gray-900"
+                  className="block text-md font-semibold leading-6 text-gray-950"
                 >
                   Company
                 </label>
@@ -121,7 +128,7 @@ const Contact = () => {
               <div className="">
                 <label
                   htmlFor="email"
-                  className="block text-sm font-semibold leading-6 text-gray-900"
+                  className="block text-md font-semibold leading-6 text-gray-950"
                 >
                   Email
                 </label>
@@ -139,7 +146,7 @@ const Contact = () => {
               <div className="">
                 <label
                   htmlFor="phone-number"
-                  className="block text-sm font-semibold leading-6 text-gray-900"
+                  className="block text-md font-semibold leading-6 text-gray-950"
                 >
                   Phone number
                 </label>
@@ -168,7 +175,7 @@ const Contact = () => {
               <div className="sm:col-span-2">
                 <label
                   htmlFor="message"
-                  className="block text-sm font-semibold leading-6 text-gray-900"
+                  className="block text-md font-semibold leading-6 text-gray-950"
                 >
                   Message
                 </label>
