@@ -44,7 +44,7 @@ const Navbar = () => {
                   <Link
                     key={item.name}
                     to={item.path}
-                    className={`${selectedOption === item.name ? "bg-white/30 text-gray-800" : ""} rounded-full shadow-2xl drop-shadow-2xl text-gray-200 hover:text-gray-800 m-1 p-3 cursor-pointer hover:scale-[1.1] ease-in duration-100`}
+                    className={`${selectedOption === item.name ? "bg-white/30 text-gray-800" : ""} rounded-full shadow-2xl drop-shadow-2xl text-gray-200 hover:text-gray-800 m-1 p-2 cursor-pointer hover:scale-[1.1] ease-in duration-100`}
                   >
                     {item.icon}
                   </Link>

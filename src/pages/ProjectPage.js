@@ -60,17 +60,19 @@ const ProjectPage = () => {
           }
         `}
       </style>
-      <div className="z-20 md:fixed md:w-[100%] md:flex md:justify-around md:items-center">
+      <div className="z-20 bg-inherit md:fixed md:w-[100%] md:flex md:justify-around md:items-center">
         <div className="flex justify-center item-center">
-          <h1 className="font-bold text-3xl first-letter:text-red-900">
+          <h1 className="font-bold text-2xl lg:text-3xl first-letter:text-red-900">
             Shantinath K.
           </h1>
         </div>
-        <Navbar />
+        <div>
+          <Navbar />
+        </div>
       </div>
       <div className="max-w-screen overflow-y-auto h-[87vh] md:h-screen md:pt-4 pt-4 md:p-0 flex flex-col justify-center items-center">
         <div
-          className="overflow-y-auto h-[100%] md:h-[100%] rounded md:mt-16 "
+          className="md:mb-[0] mb-[5%] overflow-y-auto h-[100%] md:h-[100%] rounded md:mt-16 "
           id="Project"
         >
           <h1 className="md:text-4xl text-2xl text-slate-900 hover:text-slate-800 drop-shadow-6xl font-bold text-center underline">

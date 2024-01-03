@@ -26,13 +26,16 @@ function Skills({ title, items }) {
               >
                 <div className="p-3 relative group/item border-hidden shadow-t-none shadow-inner drop-shadow-2xl shadow-t-none rounded-lg bg-gradient-to-t from-blue-900">
                   <img
-                    className="w-[70px] rounded-lg h-[60px] translate-y-2 group-hover/item:translate-y-0 transition-all ease-in-out duration-300"
+                    // className="w-[70px] rounded-lg h-[60px] md:translate-y-2 md:group-hover/item:translate-y-0 md:transition-all md:ease-in-out md:duration-300"
+                    className="w-[70px] rounded-lg h-[60px] translate-y-2 group-hover/item:translate-y-0 transition-all md:ease-in-out duration-300"
                     src={item.source}
                     alt={item.name}
                   />
                   <div
-                    className={` group-hover/item:translate-y-1 -translate-y-2 flex-col items-center justify-center text-bold text-[15px] text-center transition-all opacity-0 group-hover/item:opacity-100 duration-150`}
+                    // className={`md:group-hover/item:translate-y-1 -translate-y-2 flex-col items-center justify-center text-bold text-[15px] text-center md:transition-all opacity-100 md:opacity-0 md:group-hover/item:opacity-100 md:duration-150`}
+                    className={`group-hover/item:translate-y-1 -translate-y-2 flex-col items-center justify-center text-bold text-[15px] text-center transition-all opacity-0 group-hover/item:opacity-100 duration-150`}
                   >
+                    {/* <p className="text-[#F0F0F0] pt-3 md:pt-0">{item.name}</p> */}
                     <p className="text-[#F0F0F0]">{item.name}</p>
                     {/* <div className="flex justify-center">
                   {renderStars(item.level)}

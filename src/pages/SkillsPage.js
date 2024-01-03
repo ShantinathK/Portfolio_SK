@@ -48,11 +48,13 @@ const SkillsPage = () => {
   return (
     <div >
       <style>
-        {`
-          #skill::-webkit-scrollbar {
-            display: none;
+      {`
+          @media screen and (min-width: 768px) {
+          ::-webkit-scrollbar {
+          display: none;
           }
-        `}
+        }
+      `}
       </style>
       <div className="z-20 bg-inherit md:fixed md:w-[100%] md:flex md:justify-around md:items-center">
         <div className="flex justify-center item-center">
@@ -64,9 +66,9 @@ const SkillsPage = () => {
           <Navbar />
         </div>
       </div>
-      <div className="max-w-[1440px] overflow-y-auto md:overflow-y-hidden h-[87vh] md:h-screen m-auto p-4 flex flex-col justify-center items-center">
-        <div className="overflow-y-auto md:overflow-y-hidden h-[100%] md:h-[80%]" id="skill">
-          <h1 className="md:text-4xl text-2xl text-slate-900 hover:text-slate-800 drop-shadow-2xl font-bold text-center underline">
+      <div className="max-w-[1440px] overflow-y-auto md:overflow-y-hidden h-[88vh] md:h-screen m-auto p-4 flex flex-col justify-center items-center">
+        <div className="md:mb-[0] mb-[5%] overflow-y-auto md:overflow-y-hidden h-[100%] md:h-[80%]" id="skill">
+          <h1 className="z-20 md:text-4xl text-2xl text-slate-900 hover:text-slate-800 drop-shadow-2xl font-bold text-center underline">
             Skills
           </h1>
           <div className="flex flex-row flex-wrap items-center justify-center mt-10 gap-12 m-5 px-10">
@@ -77,7 +79,7 @@ const SkillsPage = () => {
         </div>
       </div>
       <div className="flex justify-center items-center">
-        <h6>.</h6>
+        {/* <h6></h6> */}
       </div>
     </div>
   );

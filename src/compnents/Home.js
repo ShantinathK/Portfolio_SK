@@ -1,10 +1,7 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
-import {
-  FaInstagramSquare,
-  FaGithubSquare,
-  FaLinkedin,
-} from "react-icons/fa";
+import { HiOutlineDownload } from "react-icons/hi";
+import { FaInstagramSquare, FaGithubSquare, FaLinkedin } from "react-icons/fa";
 
 import Navbar from "./navbar";
 import Footer from "./Footer";
@@ -12,17 +9,20 @@ import Footer from "./Footer";
 // import Contact from "./contact";
 
 function Home() {
+
   return (
     <div className="">
       <div className="md:fixed md:w-[100%] md:flex md:justify-around md:items-center">
-      <div className="flex justify-center item-center text-nowrap">
-          <h1 className="font-bold text-2xl lg:text-3xl first-letter:text-red-900">Shantinath K.</h1>
-      </div>
+        <div className="flex justify-center item-center text-nowrap">
+          <h1 className="font-bold text-2xl lg:text-3xl first-letter:text-red-900">
+            Shantinath K.
+          </h1>
+        </div>
         <Navbar />
       </div>
-      
+
       <div className="w-full flex justify-center items-center overflow-y-hidden h-[87vh] md:h-screen">
-      {/* <div className="rounded-full">
+        {/* <div className="rounded-full">
         <img
           className="z-[-1] w-[400px] h-[400px]rounded-full"
           src={Img}
@@ -73,17 +73,31 @@ function Home() {
               <FaInstagramSquare className="md:w-[50px] md:h-[50px] w-[30px] h-[30px] cursor-pointer hover:scale-[1.1] hover:text-slate-200 hover:shadow-gray-300 duration-100 ease-in" />
             </a>
           </div>
+          <div className="z-1 mt-5 rounded-full md:rounded-2xl shadow-sm cursor-pointer hover:scale-[1.2] ease-in duration-100">
+            <a
+              href="https://drive.google.com/file/d/1OzZFrpnpDzLf-DZDD9cTzNAraeLXLGHQ/view?usp=sharing"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <button
+                type="text"
+                className="flex rounded p-2 flex-row items-center bg-[#2b2b2c]  text-[#ffd65c] gap-1"
+                onClick={() => {}}
+              >
+                <p className=" font-poppins text-white ">Resume</p>
+                <HiOutlineDownload />
+              </button>
+            </a>
+          </div>
         </div>
       </div>
       {/* <div className="w-full h-screen">
       <Contact />
       </div> */}
-      
+
       <div className="absolute w-full bottom-0">
         <Footer />
       </div>
-      
-      
     </div>
   );
 }
