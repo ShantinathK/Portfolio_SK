@@ -5,6 +5,7 @@ import Portfolio from "../Assets/Project/Portfolio.png";
 import BookLibrary from "../Assets/Project/BookLibrarby.png";
 import HotStar from "../Assets/Project/HotStar clone.png";
 import Projects from "../compnents/projects";
+import GymTraining from "../Assets/Project/Gym-App.png"
 
 const ProjectPage = () => {
   const data = [
@@ -39,6 +40,16 @@ const ProjectPage = () => {
       },
     },
     {
+      name: "Gym Training",
+      link: "https://github.com/ShantinathK/Gym-Training-App",
+      tech: ["ReactJS", "Material UI", "RapidAPI"],
+      image: GymTraining,
+      hosted: {
+        yes: false,
+        link: "",
+      },
+    },
+    {
       name: "Book Library",
       link: "https://github.com/ShantinathK/Fourth-app-Book-Library",
       tech: ["ReactJS", "Bulma CSS"],
@@ -48,6 +59,7 @@ const ProjectPage = () => {
         link: "",
       },
     },
+    
     
   ];
 

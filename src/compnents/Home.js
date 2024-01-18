@@ -5,11 +5,10 @@ import { FaInstagramSquare, FaGithubSquare, FaLinkedin } from "react-icons/fa";
 
 import Navbar from "./navbar";
 import Footer from "./Footer";
-// import Img from "../Assets/ProfileID.jpg"
+import Img from "../Assets/ProfileID.jpg";
 // import Contact from "./contact";
 
 function Home() {
-
   return (
     <div className="">
       <div className="md:fixed md:w-[100%] md:flex md:justify-around md:items-center">
@@ -21,14 +20,13 @@ function Home() {
         <Navbar />
       </div>
 
-      <div className="w-full flex justify-center items-center overflow-y-hidden h-[87vh] md:h-screen">
-        {/* <div className="rounded-full">
+      <div className="w-full flex justify-evenly items-center overflow-y-hidden h-[87vh] md:h-screen">
+        {/* <div className="rounded-full ">
         <img
-          className="z-[-1] w-[400px] h-[400px]rounded-full"
+          className="w-[400px] h-[400px] rounded-full  object-cover object-center shadow-lg"
           src={Img}
           alt="Shantinath"
-          loading="lazy"
-        ></img>
+        />
       </div> */}
         <div className="flex flex-col justify-center items-center">
           <h1 className="text-gray-800 text-2xl sm:text-5xl md:text-[50px] font-bold">
