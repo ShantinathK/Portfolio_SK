@@ -5,7 +5,7 @@ import { FaInstagramSquare, FaGithubSquare, FaLinkedin } from "react-icons/fa";
 
 import Navbar from "./navbar";
 import Footer from "./Footer";
-import Img from "../Assets/ProfileID.jpg";
+// import Img from "../Assets/ProfileID.jpg";
 // import Contact from "./contact";
 
 function Home() {
