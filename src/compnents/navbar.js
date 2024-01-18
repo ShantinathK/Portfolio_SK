@@ -34,16 +34,14 @@ const Navbar = () => {
 
   return (
     <div>
-      <style>
+      {/* <style>
         {`  #back{
             background: linear-gradient(100deg, hsl(143, 21%, 39%), hsl(91, 38%, 27%), rgb(13, 109, 77), hwb(143 1% 61%));
             background-size: 800% 800%;
 	          animation: gradient 15s ease infinite;
         }
-        
-        
         `}
-      </style>
+      </style> */}
       {/* className=" fixed top-[90%] translate-y-[-50%] ml-5 z-20 md:hidden" */}
       {/* <div className="fixed w-full bottom-[2%] z-20 md:hidden"> */}
       <div className="fixed w-full bottom-[0%] h-20 z-20 flex justify-center items-center md:hidden mix-blend-screen" id="back">
