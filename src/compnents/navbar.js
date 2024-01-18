@@ -44,7 +44,7 @@ const Navbar = () => {
       </style> */}
       {/* className=" fixed top-[90%] translate-y-[-50%] ml-5 z-20 md:hidden" */}
       {/* <div className="fixed w-full bottom-[2%] z-20 md:hidden"> */}
-      <div className="fixed w-full bottom-[0%] h-20 z-20 flex justify-center items-center md:hidden mix-blend-screen" id="back">
+      <div className="fixed w-full bottom-[0%] h-20 z-20 flex justify-center items-center md:hidden" id="back">
         <div className="flex flex-row justify-center items-center">
           <div className="left-0 flex flex-row gap-1 bg-white/50 border rounded-full justify-start items-center text-2xl font-bold">
             {Navigation.map((item) => {
