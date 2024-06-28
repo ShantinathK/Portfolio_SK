@@ -28,7 +28,6 @@ const ExperiencePage = () => {
         `}
       </style>
       <div className="max-w-[1440px] overflow-y-auto md:overflow-none h-[32vh] md:h-screen p-4 flex flex-col justify-center items-center">
-        {/* <div className="max-w-[1440px] overflow-y-auto md:overflow-none h-full md:h-screen p-4 flex flex-col justify-center items-center"> */}
         <h1 className="md:text-4xl text-2xl m-3 text-slate-900 hover:text-slate-800 drop-shadow-2xl font-bold text-center underline">
           Work Experience
         </h1>
