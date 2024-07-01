@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../compnents/navbar";
+
 import Skills from "../compnents/Skills";
 
 import html from "../Assets/html5.png";

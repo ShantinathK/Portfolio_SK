@@ -1,5 +1,4 @@
 import React from "react";
-import Navbar from "../compnents/navbar";
 import Image from "../Assets/Project/ImageGeneration.png";
 import Portfolio from "../Assets/Project/Portfolio.png";
 import BookLibrary from "../Assets/Project/BookLibrarby.png";

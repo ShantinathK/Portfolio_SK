@@ -1,5 +1,4 @@
 import React from "react";
-import Navbar from "./navbar";
 import EductionPage from "../pages/EductionPage";
 import ExperiencePage from "../pages/ExperiencePage";
 

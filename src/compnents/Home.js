@@ -3,7 +3,6 @@ import { TypeAnimation } from "react-type-animation";
 import { HiOutlineDownload } from "react-icons/hi";
 import { FaInstagramSquare, FaGithubSquare, FaLinkedin } from "react-icons/fa";
 
-import Navbar from "./navbar";
 import Footer from "./Footer";
 // import Img from "../Assets/ProfileID.jpg";
 // import Contact from "./contact";

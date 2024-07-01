@@ -5,13 +5,6 @@ import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/bootstrap.css";
 import "react-phone-input-2/lib/style.css";
 
-import Navbar from "./navbar";
-// import Footer from "./Footer";
-
-// function classNames(...classes) {
-//   return classes.filter(Boolean).join(" ");
-// }
-
 const Contact = () => {
   // const [agreed, setAgreed] = useState(false);
   const [phone, setPhone] = useState("");
