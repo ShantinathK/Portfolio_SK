@@ -11,14 +11,7 @@ import Footer from "./Footer";
 function Home() {
   return (
     <div className="">
-      <div className="md:fixed md:w-[100%] md:flex md:justify-around md:items-center">
-        <div className="flex justify-center item-center text-nowrap">
-          <h1 className="font-bold text-2xl lg:text-3xl first-letter:text-red-900">
-            Shantinath K.
-          </h1>
-        </div>
-        <Navbar />
-      </div>
+      {/* updated Nav */}
 
       <div className="w-full flex justify-evenly items-center overflow-y-hidden h-[87vh] md:h-screen">
         {/* <div className="rounded-full ">

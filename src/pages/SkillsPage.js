@@ -55,16 +55,7 @@ const SkillsPage = () => {
         }
       `}
       </style>
-      <div className="z-20 bg-inherit md:fixed md:w-[100%] md:flex md:justify-around md:items-center">
-        <div className="flex justify-center item-center">
-          <h1 className="font-bold text-2xl lg:text-3xl first-letter:text-red-900">
-            Shantinath K.
-          </h1>
-        </div>
-        <div>
-          <Navbar />
-        </div>
-      </div>
+      {/* updated nav */}
       <div className="md:fixed md:top-10 max-w-screen overflow-y-auto md:overflow-y-hidden h-[88vh] md:h-screen m-auto p-4 flex flex-col justify-center items-center">
         <div
           className="md:mb-0 mb-[4%] overflow-y-auto md:overflow-y-hidden h-[100%] md:h-[90%]"

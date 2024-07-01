@@ -5,14 +5,6 @@ import React from "react";
 function Skills({ title, items }) {
   return (
     <div className="">
-      {/* <div className="z-20 md:fixed md:w-[100%] md:flex md:justify-around md:items-center">
-        <div className="flex justify-center item-center">
-          <h1 className="font-bold text-3xl first-letter:text-red-900">
-            Shantinath K.
-          </h1>
-        </div>
-        <Navbar />
-      </div> */}
       <div className="border-1 min-h-[170px] min-w-[300px] p-2 items-center justify-evenly flex flex-col rounded-3xl shadow-lg shadow-gray-800 border border-slate-400 bg-white/10 backdrop-blur-2xl ring-transparent">
         <h1 className="text-[#D8D9DA] sm:text-xl font-semibold">
           {title.toUpperCase()}

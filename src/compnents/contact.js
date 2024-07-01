@@ -15,13 +15,6 @@ import Navbar from "./navbar";
 const Contact = () => {
   // const [agreed, setAgreed] = useState(false);
   const [phone, setPhone] = useState("");
-  
-  
-
-
-
-
-
   return (
     <div className="">
       <style>
@@ -31,16 +24,7 @@ const Contact = () => {
           }
         `}
       </style>
-      <div className="z-20 bg-inherit md:fixed md:w-[100%] md:flex md:justify-around md:items-center">
-        <div className="flex justify-center item-center">
-          <h1 className="font-bold text-2xl lg:text-3xl first-letter:text-red-900">
-            Shantinath K.
-          </h1>
-        </div>
-        <div>
-          <Navbar />
-        </div>
-      </div>
+      {/* updated nav */}
       <div className="px-6 py-8 md:py-24 md:px-8 h-[87vh] md:h-screen flex-col justify-center items-center">
         <div
           className="overflow-y-auto md:h-[120%] h-[100%] flex flex-col"
@@ -167,7 +151,8 @@ const Contact = () => {
                         backgroundColor: "#fff",
                         backgroundImage: "none",
                         border: "1px solid border-gray-900",
-                        borderRadius: "0.375rem",}}
+                        borderRadius: "0.375rem",
+                      }}
                     />
                   </div>
                 </div>
