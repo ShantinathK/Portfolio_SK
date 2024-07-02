@@ -5,6 +5,7 @@ import BookLibrary from "../Assets/Project/BookLibrarby.png";
 import HotStar from "../Assets/Project/HotStar clone.png";
 import Projects from "../compnents/projects";
 import GymTraining from "../Assets/Project/Gym-App.png";
+import VedioPlayer from "../Assets/Project/Vedio-player.png";
 
 const ProjectPage = () => {
   const data = [
@@ -46,6 +47,16 @@ const ProjectPage = () => {
       hosted: {
         yes: false,
         link: "",
+      },
+    },
+    {
+      name: "Vedio Player Application ",
+      link: "https://github.com/ShantinathK/VedioPlayer-application",
+      tech: ["React Js", "Tailwind CSS"],
+      image: VedioPlayer,
+      hosted: {
+        yes: true,
+        link: "https://vedioplayer-app.netlify.app/",
       },
     },
     {
